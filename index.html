@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+
+<body class="pb-[88px] overflow-x-hidden">
+  <nav class="flex justify-between items-center mt-10 mx-10">
+    <a class="w-10 h-10" href="/index.html">
+      <img src="./images/logo.svg" alt="logo">
+    </a>
+    <button
+      class="w-[175px] h-[58px] bg-[#E8EFF2] text-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300 ease-in-out uppercase rounded-lg whitespace-nowrap font-bold">
+      pre-order now
+    </button>
+  </nav>
+  <main class="mt-[122px] px-10">
+    <header class="flex justify-between items-center relative">
+      <div class="flex flex-col w-full max-w-[350px]">
+        <h1 class="font-black text-5xl text-dark-blue leading-none uppercase">
+          Typemaster <br />Keyboard
+        </h1>
+        <p class="text-[#7B8BAD] w-full font-medium text-base leading-[26px] mt-[34px]">Improve your productivity and
+          gaming
+          without breaking the bank. Upgrade to a high quality mechanical typing experience.</p>
+        <div class="flex w-full justify-between items-center mt-[39px]">
+          <button
+            class="uppercase py-4 px-[26px] bg-orange rounded-lg hover:bg-pale-orange text-white font-bold transition-all duration-300 ease-in-out">
+            pre-order now
+          </button>
+          <span class="font-bold uppercase text-base leading-[26px] text-[#7B8BAD]">Release on 5/27</span>
+        </div>
+      </div>
+      <div class="absolute -right-[30vh]">
+        <div class="mix-blend-multiply absolute bg-[#D8D8D8] w-[478px] h-[425px] rounded-[20px]"></div>
+        <img class="w-[478px] h-[425px] rounded-[20px]" src="./images/image-keyboard.jpg" alt="keyboard">
+      </div>
+    </header>
+    <article class="flex flex-col gap-[72px] mt-[100px]">
+      <figure class="flex justify-between gap-[30px] items-center">
+        <div class="w-[214px] h-[320px] overflow-hidden rounded-[20px] relative">
+          <div class="mix-blend-multiply absolute bg-orange w-full h-full"></div>
+          <img class="w-full h-full" src="./images/image-phone-and-keyboard.jpg" alt="keyboard and phone">
+        </div>
+        <div class="w-[445px] h-[320px] overflow-hidden rounded-[20px] relative">
+          <div class="mix-blend-multiply absolute bg-[#D8D8D8] w-full h-full"></div>
+          <img class="w-full h-full" src="./images/image-glass-and-keyboard.jpg" alt="image-glass-and-keyboard">
+        </div>
+      </figure>
+      <section class="flex items-center gap-9">
+        <h1 class="min-w-[214px] text-dark-blue font-extrabold text-[32px] leading-9">mechanical wireless <br>Keyboard</h1>
+        <p class="font-medium text-base leading-[26px] text-[#7B8BAD]">The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

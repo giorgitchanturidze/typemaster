@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss --input style.css --output dist/output.css --watch",
+    "build": "npx tailwindcss --input style.css --output dist/output.css --minify"
+  },
+  "dependencies": {
+    "typeface-barlow": "^1.1.13"
+  }
+}
